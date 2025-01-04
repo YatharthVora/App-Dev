@@ -1,0 +1,386 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMZl5P0x40dR0a8rAQhz55L",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/YatharthVora/App-Dev/blob/main/assignement_1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OB-MFuoaoJ0d",
+        "outputId": "f9b41e88-5b77-4d08-e78e-fbbd9aed6564"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "100\n"
+          ]
+        }
+      ],
+      "source": [
+        "savings=100\n",
+        "print(savings)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"Enter 1st No.\"))\n",
+        "b=int(input(\"Enter 2nd No.\"))\n",
+        "print(\"Addtion=\",a+b)\n",
+        "print(\"subtraction=\",a-b)\n",
+        "print(\"Multiplication=\",a*b)\n",
+        "print(\"Division=\",a/b)\n",
+        "print(\"Remainder=\",a%b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DiA8Mzygo1oM",
+        "outputId": "21940039-ccf2-4509-8312-bf5008cf9b89"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter 1st No.20\n",
+            "Enter 2nd No.10\n",
+            "Addtion= 30\n",
+            "subtraction= 10\n",
+            "Multiplication= 200\n",
+            "Division= 2.0\n",
+            "Remainder= 0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "invest=100\n",
+        "invest=invest*(1.1**7);\n",
+        "print(\"Total balance after 7 years is\",invest)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uuhWCNMgpeU0",
+        "outputId": "b51f8354-2e89-4835-ad1e-e49c7b5e9d51"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total balance after 7 years is 194.87171000000012\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"8958937768937 divided by 2851718461558 is\",8958937768937/2851718461558)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7yn50J3Bqcfx",
+        "outputId": "c9caeb85-98bb-41a8-e319-dfac1dcbca36"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8958937768937 divided by 2851718461558 is 3.141592653589793\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"Enter value for a\"))\n",
+        "b=int(input(\"Enter value for b\"))\n",
+        "print(\"a+b=\",a+b)\n",
+        "print(\"a-b=\",a-b)\n",
+        "print(\"a*b=\",a*b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bljO3JdZrIAs",
+        "outputId": "d4efecf5-50af-431a-bdca-096d8132d842"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter value for a10\n",
+            "Enter value for b20\n",
+            "a+b= 30\n",
+            "a-b= -10\n",
+            "a*b= 200\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"Enter value for a\"))\n",
+        "b=int(input(\"Enter value for b\"))\n",
+        "print(\"a/b=\",a//b)\n",
+        "print(\"a/b=\",a/b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TLdxN0KSricD",
+        "outputId": "3b0bddec-a25d-4d12-8dc8-6fa1301c9b4d"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter value for a20\n",
+            "Enter value for b10\n",
+            "a/b= 2\n",
+            "a/b= 2.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "first_name=input(\"Enter first name: \")\n",
+        "last_name=input(\"Enter last name: \")\n",
+        "age=int(input(\"Enter age: \"))\n",
+        "print(\"Age of\",first_name,last_name,\"is\",age)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ymzNa8-rsFqj",
+        "outputId": "4785e607-0842-4661-f22f-021c0efbe440"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first name: yatharth\n",
+            "Enter last name: vora\n",
+            "Enter age: 17\n",
+            "Age of yatharth vora is 17\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "r=float(input(\"Enter radius:\"))\n",
+        "area=3.14*r**2;\n",
+        "circumference=2*3.14*r;\n",
+        "print(\"Area=\",area)\n",
+        "print(\"Circumference=\",circumference)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Macm6O2zs0kb",
+        "outputId": "e8779196-d65c-4cea-8cbb-6f31e19aeb7b"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter radius:12\n",
+            "Area= 452.16\n",
+            "Circumference= 75.36\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Principle=int(input(\"Enter princple\"))\n",
+        "Time=int(input(\"Enter time\"))\n",
+        "Rate=float(input(\"Enter rate\"))\n",
+        "ci=Principle*(1+(Rate/100))**Time;\n",
+        "ci-=Principle\n",
+        "print(\"Compound Interest=\",ci)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aaXGEQLetsys",
+        "outputId": "cbcf0567-b139-43cb-b4c1-b198457016a7"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter princple1200\n",
+            "Enter time2\n",
+            "Enter rate5.4\n",
+            "Compound Interest= 133.0992000000001\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"Enter 1st No.\"))\n",
+        "b=int(input(\"Enter 2nd No.\"))\n",
+        "c=int(input(\"Enter 3rd No.\"))\n",
+        "d=int(input(\"Enter 4th No.\"))\n",
+        "e=int(input(\"Enter 5th No.\"))\n",
+        "sum=a+b+c+d\n",
+        "avg=sum/5\n",
+        "print(\"Sum=\",sum)\n",
+        "print(\"Average=\",avg)\n",
+        "if(sum<100):\n",
+        "  print('True')\n",
+        "else:\n",
+        "  print(\"False\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yslUXE8uuNwH",
+        "outputId": "3f65ba51-c953-40a6-e416-6a578eebc2fe"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter 1st No.10\n",
+            "Enter 2nd No.20\n",
+            "Enter 3rd No.30\n",
+            "Enter 4th No.40\n",
+            "Enter 5th No.50\n",
+            "Sum= 100\n",
+            "Average= 20.0\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"Enter 1st No.\"))\n",
+        "b=int(input(\"Enter 2nd No.\"))\n",
+        "print(\"remainder=\",a%b)\n",
+        "print(\"floor divsion=\",a//b)\n",
+        "print(\"a raise to b=\",a**b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cJD19R0fvbVD",
+        "outputId": "46593193-58e4-4fc6-ac02-9b7628528144"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter 1st No.20\n",
+            "Enter 2nd No.10\n",
+            "remainder= 0\n",
+            "floor divsion= 2\n",
+            "a raise to b= 10240000000000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"Enter No.\"))\n",
+        "print(\"Bitwise left shift by 2:\",a<<2)\n",
+        "print(\"Bitwise right shift by 4:\",a>>4)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vPIUiCp6v2Xb",
+        "outputId": "d85ff54c-3ed4-4016-dc07-968c6004b2ca"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter No.2\n",
+            "Bitwise left shift by 2: 8\n",
+            "Bitwise right shift by 4: 0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
